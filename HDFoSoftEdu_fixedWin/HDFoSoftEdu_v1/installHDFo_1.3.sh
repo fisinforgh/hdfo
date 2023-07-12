@@ -193,10 +193,9 @@ fi
 nameDIR="HDFoSoftEdu_v1"
 FILE="SEHDFo_v1"
 
-tarFILE=HDFoSoftEdu_v1.tar
 cd $dirPATH
 tar xfv $tarFILE
-cd HDFoSoftEdu_v1
+cd $nameDIR
 
 if [ -f "$FILE" ]; then
     rm $FILE
