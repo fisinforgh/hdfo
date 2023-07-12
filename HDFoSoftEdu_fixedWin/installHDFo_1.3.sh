@@ -162,9 +162,9 @@ pwd
 echo "Installation folder: $dirPATH"
 echo "Path to Desktop folder: $dirDESK"
 echo "Downloading HDFo source files: ... "
-echo "wget https://github.com/fisinforgh/hdfo/tree/main/HDFoSoftEdu_fixedWin/$tarFILE -P $dirPATH"
+echo "wget https://raw.githubusercontent.com/fisinforgh/hdfo/main/HDFoSoftEdu_fixedWin/$tarFILE -P $dirPATH"
 echo "Wait..."
-(wget -O $dirPATH/$tarFILE https://github.com/fisinforgh/hdfo/blob/main/HDFoSoftEdu_fixedWin/$tarFILE) | zenity --progress --width=800 --height=400 --auto-close \
+(wget -O $dirPATH/$tarFILE https://raw.githubusercontent.com/fisinforgh/hdfo/main/HDFoSoftEdu_fixedWin/$tarFILE) | zenity --progress --width=800 --height=400 --auto-close \
 										     --title="HDFoEdu_1.0 Install" \
 										     --text="Downloading HDFoSofEdu... Please wait ..." \
 										     --percentage=10
